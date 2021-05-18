@@ -23,7 +23,7 @@ export function TaskList(props: Task) {
     };
 
     if (newTask.title === "") {
-      alert("Por favor, insira um todo valido");
+      return;
     } else {
       setTasks((oldTask) => [...oldTask, newTask]);
       setNewTaskTitle("");
@@ -40,7 +40,6 @@ export function TaskList(props: Task) {
           }
         : task
     );
-
     setTasks(taskCompleted);
   }
 
