@@ -42,7 +42,7 @@
 
 ```bash
 # Fazer o clone do Repositorio.
->> Git Clone: *A COLOCAR*
+>> Git Clone: https://github.com/WD-GabrielKenji/Ignite-ReactJS-Desafio1.git
 ```
 
 ```bash
